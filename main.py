@@ -4,7 +4,7 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 import os
-from train import NERdataset
+from dataset import NERdataset
 from torch.utils.data import DataLoader, Dataset
 from sklearn.metrics import precision_score, recall_score, f1_score, classification_report
 from utils_crf import build_vocab, build_dict, cal_max_length, Config
